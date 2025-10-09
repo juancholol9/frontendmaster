@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree';
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    /* Center the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* Center the div */
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    height: 60%;
+    width: 20%;
+    margin: 2rem;
+    border-radius: 2rem;
+
+    /* Center the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* Center the div */
+
+    box-shadow: 10px 5px black;
+}
+
+.inside_card{
+    /* background-color: red; */
+    height: 90%;
+    width: 90%;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.text{
+    /* background-color: blue; */
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.title:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.description{
+    color: grey;
+}
+
+.type {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    align-self: flex-start;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.instructor{
+    /* background-color: red; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.pfp{
+    width: 40px;
+}
